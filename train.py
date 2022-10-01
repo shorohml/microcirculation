@@ -736,7 +736,7 @@ for fold_idx, (train_index, test_index) in enumerate(kf.split(np.zeros((len(data
     )
     summary = trainer.fit(
         train_loader,
-        1,
+        60,
         val_loader=valid_loader
     )
 
